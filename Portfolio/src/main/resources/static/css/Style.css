@@ -1,0 +1,352 @@
+@charset "ISO-8859-1";
+
+body{
+	padding: 50px;
+	background-color: lightgray;
+}
+
+
+/* title bar*/
+#top{
+	background-color: coral;
+	text-align: center;
+	background-position: center;
+	height: 60px;
+	min-width: 655px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+}
+#login{
+	position: absolute;
+	top:10px;
+	right: 10px;
+}
+#title{
+	position: absolute;
+	min-width: 655px;
+	top: 35px;
+	left: 0px;
+	right:0px;
+	text-align: center;
+	border-bottom: 10px solid black;
+	background-color: coral;
+}
+
+
+/*left column*/
+#options_on_left{
+	width:175px;
+	height: 100%;
+	background-color: lightcoral;
+	position: absolute;
+	left: 0px;
+	top: 86px;
+	display: flex;
+	flex-flow: column nowrap;
+}
+.menu_links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-top: 25px;
+    padding-left: 5px;
+}
+
+
+/*main page*/
+#content{/*only for pages without objects*/
+	position: absolute;
+	left: 175px;
+	top: 86px;
+	padding: 15px;
+	display: flex;
+	flex-flow: row wrap;
+}
+object{
+	position: absolute;
+	right: 0px;
+	left: 175px;
+	top: 86px;
+}
+#outro{ /*only for pages with objects*/
+	position: absolute;
+	left: 175px;
+	top: 900px;
+}
+
+
+/*projects page*/
+.content{
+	width: 150px;
+	height: 150px;
+}
+.icon{
+	width: 100px;
+	height: 100px;
+}
+#webpageIcon{
+	background-image: url(../media/icons/webpage.png);
+}
+
+
+/*contact info page*/
+h3{
+	min-width: 450px;
+}
+.quiz{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.submit{
+    width: 385px;
+    margin-bottom: 20px;
+}
+label{
+	display: inline-block;
+    width: 125px;
+    margin: 0px;
+}
+.bar{
+    width: 245px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+/* bookclub css */
+
+/*
+
+.quiz{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+label{
+    width: 125px;
+    margin: 0px;
+}
+.bar{
+    width: 245px;
+    margin-bottom: 10px;
+}
+h1{
+    background-color: grey;
+    width: 400px;
+    text-align: center;
+}
+.submit{
+    width: 400px;
+    margin-bottom: 20px;
+}
+nav{
+    margin-bottom: 20px;
+}
+.wide{
+    width: 800px;
+}
+.outline{
+    border:1px solid black;
+    margin: 1px;
+}
+.too_tall{
+    display: flex;
+    margin: 5px;
+}
+.side_by_side{
+    display: flex;
+}
+.floaters{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.space{
+    margin: 10px;
+}
+.right{
+    margin: 5px -5px;
+    width: 600px;
+}
+.left{
+    margin: 5px 10px 5px 5px ;
+    width: 150px;
+}
+.welcome{
+    background: none;
+    width: 800px;
+}
+a{
+    margin-right: 5px;
+}
+.right_labels{
+    width: 250px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+/* below is css from html test      */
+
+
+
+/*
+.green{
+    background-color: rgb(0, 216, 162);
+}
+.black{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    align-items: center;
+}
+#SearchBar{
+    width: 300px;
+    height: 28px;
+    border-right: 0px;
+    border-radius: 15px;
+}
+#search{
+    background-image: url("images/assets/search-dark.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 25px;
+    width: 25px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: -20px;
+}
+#wrapper{
+    width: 550px;
+    padding: 5px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.titleimg{
+    max-width: 30px;
+}
+hr{
+    height: 5px;
+    background-color: black;
+}
+
+#main{
+    padding: 10px;
+}
+h2{
+    height: 5px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.leftright{
+    display: flex;
+    justify-content: space-between;
+}
+.updown{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    margin: 10px 0px;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.arrow{
+    display: flex;
+    height: 25px;
+}
+.ufff{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#this{
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+}
+.sidetext{
+    width: 150px;
+    word-wrap: wrap;
+    color: white;
+    text-align: center;
+}
+#big{
+    width: 145px ;
+}
+#skinny{
+    width: 200px;
+    height: 90px;
+}
+
+.bottom{
+    background-color: aqua;
+    height: 150px;
+    padding: 10px;
+}
+.images{
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 15px;
+}
+#alert{
+    width: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: solid 1px black;
+    background-color: white;
+    position: fixed;
+    */
+    /* this is unnecessary but on a scrollable webpage wouldn't be... right? */
+    /*
+    margin-top: -50px;
+}
+#alert img{
+    width: 40px;
+    height: 40px;
+}
+#alert button{
+    width: 100px;
+    */
+    /* good button width is 75 when not being pushed on by other objects but 100 forces txt into 1 line*/
+    /* Also Its starting to become apparent how small I made my page now... but its right so f it ... otherwise there would be side space between border and button*/
+    /*
+    background-color: rgb(0, 216, 162);
+    color: white;
+    box-shadow: 2px 2px black;*/
+    /* boxshadow is not supposed to need color specification but it didn't work without it */
+
+/*}*/
+
+
